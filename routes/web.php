@@ -22,6 +22,10 @@ Route::get('/{page}', function ($page) {
     return view($page, $data);
 });*/
 
+Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], function() {
+	Route::get('/', 'DashboardController@dashboard')->name('admin.index');
+});
+
 Route::get('/', 'MainController@index');
 Route::get('/pricingbox', 'PriceController@index');
 Route::get('/portfolio', 'PortfolioController@index');
@@ -29,3 +33,7 @@ Route::get('/blog', 'BlogController@index');
 Route::get('/contact', 'ContactController@index');
 
 Route::post('/sendmail', 'ContactController@send');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+

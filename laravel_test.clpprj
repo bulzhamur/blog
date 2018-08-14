@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="E:\OSPanel\domains\localhost\blog\laravel_test.clpprj">
 	<settings><PM_URL><![CDATA[laravel.local]]></PM_URL><PM_HOME_URL><![CDATA[laravel.local]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="E:\OSPanel\domains\localhost\blog\routes\web.php"/>
+		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\MainController.php"/>
+		<file name="E:\OSPanel\domains\localhost\blog\config\database.php"/>
+		<file name="E:\OSPanel\domains\localhost\blog\.env"/>
+		<file name="E:\OSPanel\domains\localhost\blog\database\migrations\2014_10_12_000000_create_users_table.php"/>
+		<file name="E:\OSPanel\domains\localhost\blog\database\migrations\2014_10_12_100000_create_password_resets_table.php"/>
 	</lastopfiles>
 	<errors version="5.11">
 	</errors>
@@ -209,8 +215,6 @@
 			<todo name="TODO" pos="21;1910"/>
 		</todofile>
 	</todoblock>
-	<dbgurls>
-	</dbgurls>
 	<filescache>
 		<file name="E:\OSPanel\domains\localhost\blog\vendor\webmozart\assert\src\Assert.php" crc="1532527237"/>
 		<file name="E:\OSPanel\domains\localhost\blog\vendor\webmozart\assert\.styleci.yml" crc="1532527237"/>
@@ -5253,13 +5257,15 @@
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\edcb29874f1cc34626552adc5b90826c095698ba.php" crc="1532614303"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\ed9aff34dda341c305906ca910d43e3f61fbd431.php" crc="1532613468"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\df4d8ccdc091d5f8af8238354648a805f86f8a45.php" crc="1532613959"/>
+		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\c106fe328d647bb01eccef9c34a7d0eb3a081772.php" crc="1533088058"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\b996fd64b827dc83651f7cfb48f2e50d210f51b2.php" crc="1532610704"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\9edf29931df7c8ec40d66ef75793746071234785.php" crc="1532610596"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\81d8cd93bcc5384d93f4deda36f6f953f712464c.php" crc="1532611050"/>
+		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\7bd2172fdf7e9b0538212f2b0025480f181aef03.php" crc="1533087211"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\5ac4dc9ece7257659c7f4f4f3084f17dc24f8715.php" crc="1532527305"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\51d4ea04835f32869cea43ccb448504451afe0ca.php" crc="1532613830"/>
 		<file name="E:\OSPanel\domains\localhost\blog\storage\framework\views\3b5a1128fe471d7773fd658f5006c75d4a3d642a.php" crc="1532611565"/>
-		<file name="E:\OSPanel\domains\localhost\blog\routes\web.php" crc="1533088041"/>
+		<file name="E:\OSPanel\domains\localhost\blog\routes\web.php" crc="1534169987"/>
 		<file name="E:\OSPanel\domains\localhost\blog\routes\console.php" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\routes\channels.php" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\routes\api.php" crc="1532527163"/>
@@ -5268,11 +5274,17 @@
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\layouts\header.blade.php" crc="1532613828"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\layouts\footer.blade.php" crc="1532610936"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\layouts\breadcrumbs.blade.php" crc="1532613457"/>
+		<file name="E:\OSPanel\domains\localhost\blog\resources\views\layouts\app.blade.php" crc="1534169987"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\layouts\_layout.blade.php" crc="1532612739"/>
+		<file name="E:\OSPanel\domains\localhost\blog\resources\views\auth\passwords\reset.blade.php" crc="1534169987"/>
+		<file name="E:\OSPanel\domains\localhost\blog\resources\views\auth\passwords\email.blade.php" crc="1534169987"/>
+		<file name="E:\OSPanel\domains\localhost\blog\resources\views\auth\register.blade.php" crc="1534169987"/>
+		<file name="E:\OSPanel\domains\localhost\blog\resources\views\auth\login.blade.php" crc="1534169987"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\typography.blade.php" crc="1533087293"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\pricingbox.blade.php" crc="1533087150"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\portfolio.blade.php" crc="1532614282"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\index.blade.php" crc="1532611563"/>
+		<file name="E:\OSPanel\domains\localhost\blog\resources\views\home.blade.php" crc="1534169987"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\contact.blade.php" crc="1533087713"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\components.html" crc="1527749034"/>
 		<file name="E:\OSPanel\domains\localhost\blog\resources\views\blog.blade.php" crc="1532613954"/>
@@ -5301,6 +5313,7 @@
 		<file name="E:\OSPanel\domains\localhost\blog\public\js\jquery.easing.1.3.js" crc="1392315164"/>
 		<file name="E:\OSPanel\domains\localhost\blog\public\js\custom.js" crc="1392315156"/>
 		<file name="E:\OSPanel\domains\localhost\blog\public\js\bootstrap.min.js" crc="1392315154"/>
+		<file name="E:\OSPanel\domains\localhost\blog\public\js\app.js" crc="1533087937"/>
 		<file name="E:\OSPanel\domains\localhost\blog\public\js\animate.js" crc="1392315152"/>
 		<file name="E:\OSPanel\domains\localhost\blog\public\css\fancybox\jquery.fancybox.css" crc="1392315192"/>
 		<file name="E:\OSPanel\domains\localhost\blog\public\css\style.css" crc="1476169538"/>
@@ -5330,6 +5343,7 @@
 		<file name="E:\OSPanel\domains\localhost\blog\config\auth.php" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\config\app.php" crc="1532527434"/>
 		<file name="E:\OSPanel\domains\localhost\blog\bootstrap\cache\services.php" crc="1532527251"/>
+		<file name="E:\OSPanel\domains\localhost\blog\bootstrap\cache\config.php" crc="1534169695"/>
 		<file name="E:\OSPanel\domains\localhost\blog\bootstrap\autoload.php" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\bootstrap\app.php" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\app\Providers\RouteServiceProvider.php" crc="1532527163"/>
@@ -5348,6 +5362,7 @@
 		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\PriceController.php" crc="1533087207"/>
 		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\PortfolioController.php" crc="1533086636"/>
 		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\MainController.php" crc="1533086233"/>
+		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\HomeController.php" crc="1534169987"/>
 		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\Controller.php" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\ContactController.php" crc="1533088033"/>
 		<file name="E:\OSPanel\domains\localhost\blog\app\Http\Controllers\BlogController.php" crc="1533086625"/>
@@ -5358,5 +5373,6 @@
 		<file name="E:\OSPanel\domains\localhost\blog\webpack.mix.js" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\server.php" crc="1532527163"/>
 		<file name="E:\OSPanel\domains\localhost\blog\phpunit.xml" crc="1532527163"/>
+		<file name="E:\OSPanel\domains\localhost\blog\.env" crc="1534169462"/>
 	</filescache>
 </project>
